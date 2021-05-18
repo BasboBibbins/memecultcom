@@ -1,0 +1,35 @@
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-image: url("../../resources/img/bg.png");
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Comic Sans MS';
+}
+h1 {
+    color: white;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 5px;
+    text-align: center;
+    font-size: 1000%;
+    margin: -10px;
+    padding: -100%;
+}
+h2 {
+    color: white;
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 3px;
+    text-align: center;
+    font-size: 500%;
+    margin: -10px;
+    padding: -100%;
+}
+
+.discord {
+    float: right;
+    width: auto;
+}
