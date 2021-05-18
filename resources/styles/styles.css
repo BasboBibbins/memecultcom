@@ -1,6 +1,6 @@
 body {
     width: 100%;
-    min-height: 100vh;
+    min-height: 105vh;
     background-image: url("../../resources/img/bg.png");
     background-color: black;
     background-repeat: no-repeat;
@@ -9,6 +9,7 @@ body {
     margin: 0%;
     padding: 0%;
     font-family: 'Comic Sans MS';
+    overflow: hidden;
 }
 h1 {
     color: white;
@@ -30,6 +31,8 @@ h2 {
 }
 
 .discord {
-    float: right;
-    width: auto;
+    float:right;
+    padding-right: 50%;
+    padding-top: 10%;
+    margin-right: -13vh;
 }
