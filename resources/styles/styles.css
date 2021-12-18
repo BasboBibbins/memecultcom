@@ -1,7 +1,7 @@
 body {
     width: 100%;
     min-height: 105vh;
-    background-image: url("../../resources/img/bg.png");
+    background-image: url("../../resources/img/bg_xmas.png");
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
@@ -36,3 +36,16 @@ h2 {
     padding-top: 10%;
     margin-right: -13vh;
 }
+
+.snowflake {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background: linear-gradient(white, white); /* Workaround for Chromium's selective color inversion */
+    border-radius: 50%;
+    filter: drop-shadow(0 0 10px white);
+}
+#snowbutton {
+    position: absolute;
+}
+.container { display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100vh; }
