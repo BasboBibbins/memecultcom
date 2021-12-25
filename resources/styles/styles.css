@@ -1,3 +1,7 @@
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
 body {
     width: 100%;
     min-height: 105vh;
