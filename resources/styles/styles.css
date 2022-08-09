@@ -5,7 +5,7 @@ html {
 body {
     width: 100%;
     min-height: 105vh;
-    background-image: url("../../resources/img/bg_xmas.png");
+    background-image: url("../../resources/img/bg.png");
     background-color: black;
     background-repeat: no-repeat;
     background-size: cover;
